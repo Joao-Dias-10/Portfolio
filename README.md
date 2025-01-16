@@ -123,7 +123,7 @@ Go to `sass/abstracts/_variables.scss` and change the value of this sass variabl
 
 ```scss
 // Default value
-$themeClrPrimary: #0062b9;
+$themeClrPrimary: #2AC769;
 ```
 
 **NOTE**: I highly recommend to checkout the [Dopefolio Playground Link](https://dopefolio-playground.netlify.app) to test the template with different colors and see which color do you like the most.
@@ -150,12 +150,12 @@ Go to `/index.html` and fill your information, there are 6 sections:
     <div class="header__logo-container">
       <div class="header__logo-img-cont">
         <img
-          src="./assets/png/john-doe.png"
+          src="./assets/png/user.png"
           alt="Ram Maheshwari Logo Image"
           class="header__logo-img"
         />
       </div>
-      <span class="header__logo-sub">John Doe</span>
+      <span class="header__logo-sub">João Dias</span>
     </div>
     <div class="header__main">
       <ul class="header__links">
@@ -163,13 +163,13 @@ Go to `/index.html` and fill your information, there are 6 sections:
           <a href="./" class="header__link"> Home </a>
         </li>
         <li class="header__link-wrapper">
-          <a href="./#about" class="header__link">About </a>
+          <a href="./#about" class="header__link">Sobre </a>
         </li>
         <li class="header__link-wrapper">
-          <a href="./#projects" class="header__link"> Projects </a>
+          <a href="./#projetos" class="header__link"> projetos </a>
         </li>
         <li class="header__link-wrapper">
-          <a href="./#contact" class="header__link"> Contact </a>
+          <a href="./#contato" class="header__link"> contato </a>
         </li>
       </ul>
       <div class="header__main-ham-menu-cont">
@@ -193,11 +193,11 @@ Go to `/index.html` and fill your information, there are 6 sections:
         </li>
 
         <li class="header__sm-menu-link">
-          <a href="./#projects"> Projects </a>
+          <a href="./#projetos"> projetos </a>
         </li>
 
         <li class="header__sm-menu-link">
-          <a href="./#contact"> Contact </a>
+          <a href="./#contato"> contato </a>
         </li>
       </ul>
     </div>
@@ -216,7 +216,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
 <!-- **** Hero Section of Homepage **** -->
 <section class="home-hero">
   <div class="home-hero__content">
-    <h1 class="heading-primary">Hey, My name is John Doe</h1>
+    <h1 class="heading-primary">Olá, meu nome é João Dias</h1>
     <div class="home-hero__info">
       <p class="text-primary">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
@@ -225,7 +225,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
       </p>
     </div>
     <div class="home-hero__cta">
-      <a href="./#projects" class="btn btn--bg">Projects</a>
+      <a href="./#projetos" class="btn btn--bg">projetos</a>
     </div>
   </div>
   <div class="home-hero__socials">
@@ -304,15 +304,15 @@ Go to `/index.html` and fill your information, there are 6 sections:
     </h2>
     <div class="about__content">
       <div class="about__content-main">
-        <h3 class="about__content-title">Get to know me!</h3>
+        <h3 class="about__content-title">Venha me conhecer!</h3>
         <div class="about__content-details">
           <p class="about__content-details-para">
             Hey! It's
-            <strong>John Doe</strong>
+            <strong>João Dias</strong>
             and I'm a <strong> Frontend Web Developer </strong> located in Los
             Angeles. I've done
             <strong> remote </strong>
-            projects for agencies, consulted for startups, and collaborated with
+            projetos for agencies, consulted for startups, and collaborated with
             talented people to create
             <strong>digital products </strong>
             for both business and consumer use.
@@ -321,11 +321,11 @@ Go to `/index.html` and fill your information, there are 6 sections:
             I'm a bit of a digital product junky. Over the years, I've used
             hundreds of web and mobile apps in different industries and
             verticals. Feel free to
-            <strong>contact</strong> me here.
+            <strong>contato</strong> me here.
           </p>
         </div>
-        <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-          >Contact</a
+        <a href="./#contato" class="btn btn--med btn--theme dynamicBgClr"
+          >contato</a
         >
       </div>
       <div class="about__content-skills">
@@ -351,47 +351,47 @@ Go to `/index.html` and fill your information, there are 6 sections:
 <!-- END About Section -->
 ```
 
-### Projects
+### projetos
 
 - On `.heading-sec__sub`, put a short description about the section.
-- `.projects__row` is the row for each project in your portfolio.
-- One `.projects__row` for each project in your portfolio ( so for example, if you have 3 projects then you need 3 `.projects__row` one by one).
+- `.projetos__row` is the row for each project in your portfolio.
+- One `.projetos__row` for each project in your portfolio ( so for example, if you have 3 projetos then you need 3 `.projetos__row` one by one).
 
-- Inside each `projects__row`, there are 4 main elements.
+- Inside each `projetos__row`, there are 4 main elements.
 
-  - Project Image is located at `.projects__row-img` where you can add the URL for your project mockup/image. You can use websites like [Media Modifier](https://mediamodifier.com/) and [SmartMockups](https://smartmockups.com) to generate mockups for free. Just make sure to crop the extra white space around your mockup so the mockups can look bigger and the size of the mockup file will be less.
+  - Project Image is located at `.projetos__row-img` where you can add the URL for your project mockup/image. You can use websites like [Media Modifier](https://mediamodifier.com/) and [SmartMockups](https://smartmockups.com) to generate mockups for free. Just make sure to crop the extra white space around your mockup so the mockups can look bigger and the size of the mockup file will be less.
 
-  - `.projects__row-content-title` is where you need to add your Project title.
-  - `.projects__row-content-desc` is where you need to add a short 2-3 lines description of your project. As there's going to be a separate page for each project so there you can add all the details for each project on the specific project page.
+  - `.projetos__row-content-title` is where you need to add your Project title.
+  - `.projetos__row-content-desc` is where you need to add a short 2-3 lines description of your project. As there's going to be a separate page for each project so there you can add all the details for each project on the specific project page.
   - The Anchor tag ( **Case Study** button) on press will take you to the details page for each project ( For example: If you click the **Case Study** button of Project 1 then it will take you to the `project-1.html` file where you will have all the details about that particular project).
 
-Currently, I have already added a separate for each project ( considering there are 3 projects ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projects then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
+Currently, I have already added a separate for each project ( considering there are 3 projetos ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projetos then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
 
 ```html
-<!-- **** Projects Section of Homepage **** -->
-<section id="projects" class="projects sec-pad">
+<!-- **** projetos Section of Homepage **** -->
+<section id="projetos" class="projetos sec-pad">
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-bg">
-      <span class="heading-sec__main">Projects</span>
+      <span class="heading-sec__main">projetos</span>
       <span class="heading-sec__sub">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
         tempora explicabo quae quod deserunt eius sapiente
       </span>
     </h2>
 
-    <div class="projects__content">
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
+    <div class="projetos__content">
+      <div class="projetos__row">
+        <div class="projetos__row-img-cont">
           <img
             src="./assets/jpeg/project-mockup-example.jpeg"
             alt="Software Screenshot"
-            class="projects__row-img"
+            class="projetos__row-img"
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 1</h3>
-          <p class="projects__row-content-desc">
+        <div class="projetos__row-content">
+          <h3 class="projetos__row-content-title">Project 1</h3>
+          <p class="projetos__row-content-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
@@ -403,18 +403,18 @@ Currently, I have already added a separate for each project ( considering there 
           >
         </div>
       </div>
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
+      <div class="projetos__row">
+        <div class="projetos__row-img-cont">
           <img
             src="./assets/jpeg/project-mockup-example.jpeg"
             alt="Software Screenshot"
-            class="projects__row-img"
+            class="projetos__row-img"
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 2</h3>
-          <p class="projects__row-content-desc">
+        <div class="projetos__row-content">
+          <h3 class="projetos__row-content-title">Project 2</h3>
+          <p class="projetos__row-content-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
@@ -426,18 +426,18 @@ Currently, I have already added a separate for each project ( considering there 
           >
         </div>
       </div>
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
+      <div class="projetos__row">
+        <div class="projetos__row-img-cont">
           <img
             src="./assets/jpeg/project-mockup-example.jpeg"
             alt="Software Screenshot"
-            class="projects__row-img"
+            class="projetos__row-img"
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 3</h3>
-          <p class="projects__row-content-desc">
+        <div class="projetos__row-content">
+          <h3 class="projetos__row-content-title">Project 3</h3>
+          <p class="projetos__row-content-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
@@ -452,71 +452,71 @@ Currently, I have already added a separate for each project ( considering there 
     </div>
   </div>
 </section>
-<!-- END Projects Section -->
+<!-- END projetos Section -->
 ```
 
-### Contact Section
+### contato Section
 
 - On `.heading-sec__sub`, put a short description about the section.
-- `.contact__form-field` is the field inside form. Currently, there are 3 fields but you can add more fields as per your need but just make sure to change the name of **label** and **input/textarea** inside it.
+- `.contato__form-field` is the field inside form. Currently, there are 3 fields but you can add more fields as per your need but just make sure to change the name of **label** and **input/textarea** inside it.
 
 If you like to know how to submit forms so you can receive the form details in your email then highly recommend using **formspree.io** as it's easier to set up and free to use. If you are using **Netlify** to host the site then Netlify has an inbuilt form receiver which you can use instead of **formspree**.
 
 ```html
-<!-- **** Contact Section of Homepage **** -->
-<section id="contact" class="contact sec-pad dynamicBg">
+<!-- **** contato Section of Homepage **** -->
+<section id="contato" class="contato sec-pad dynamicBg">
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-med">
-      <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+      <span class="heading-sec__main heading-sec__main--lt">contato</span>
       <span class="heading-sec__sub heading-sec__sub--lt">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
         tempora explicabo quae quod deserunt eius sapiente
       </span>
     </h2>
-    <div class="contact__form-container">
-      <form action="#" class="contact__form">
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="name">Name</label>
+    <div class="contato__form-container">
+      <form action="#" class="contato__form">
+        <div class="contato__form-field">
+          <label class="contato__form-label" for="name">Name</label>
           <input
             required
             placeholder="Enter Your Name"
             type="text"
-            class="contact__form-input"
+            class="contato__form-input"
             name="name"
             id="name"
           />
         </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="email">Email</label>
+        <div class="contato__form-field">
+          <label class="contato__form-label" for="email">Email</label>
           <input
             required
             placeholder="Enter Your Email"
             type="text"
-            class="contact__form-input"
+            class="contato__form-input"
             name="email"
             id="email"
           />
         </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="message">Message</label>
+        <div class="contato__form-field">
+          <label class="contato__form-label" for="message">Message</label>
           <textarea
             required
             cols="30"
             rows="10"
-            class="contact__form-input"
+            class="contato__form-input"
             placeholder="Enter Your Message"
             name="message"
             id="message"
           ></textarea>
         </div>
-        <button type="submit" class="btn btn--theme contact__btn">
+        <button type="submit" class="btn btn--theme contato__btn">
           Submit
         </button>
       </form>
     </div>
   </div>
 </section>
-<!-- END Contact Section -->
+<!-- END contato Section -->
 ```
 
 
@@ -575,7 +575,7 @@ If you like to know how to submit forms so you can receive the form details in y
         </div>
       </div>
       <div class="main-footer__row main-footer__row-2">
-        <h4 class="heading heading-sm text-lt">John Doe</h4>
+        <h4 class="heading heading-sm text-lt">João Dias</h4>
         <p class="main-footer__short-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
           tempora explicabo quae quod deserunt
@@ -767,7 +767,7 @@ If you like this project then give it a **Github** star by pressing the **Star**
 <br>
 
 #### Note: 
-I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in India )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
+I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in India )**. So, if you have a good opportunity that matches my skills experience then you can contato me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
 
 
 <br>
