@@ -584,7 +584,7 @@ If you like to know how to submit forms so you can receive the form details in y
     </div>
 
     <div class="main-footer__lower">
-      &copy; Copyright 2021. Made by
+      &copy; Copyright 2025. Made by
       <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
         >Ram Maheshwari</a
       >
