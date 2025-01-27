@@ -398,7 +398,7 @@ Currently, I have already added a separate for each project ( considering there 
           <a
             href="./project-1.html"
             class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
+           
             >Case Study</a
           >
         </div>
@@ -421,7 +421,7 @@ Currently, I have already added a separate for each project ( considering there 
           <a
             href="./project-2.html"
             class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
+           
             >Case Study</a
           >
         </div>
@@ -444,7 +444,7 @@ Currently, I have already added a separate for each project ( considering there 
           <a
             href="./project-3.html"
             class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
+           
             >Case Study</a
           >
         </div>
@@ -537,35 +537,35 @@ If you like to know how to submit forms so you can receive the form details in y
           <span>Social</span>
         </h2>
         <div class="main-footer__social-cont">
-          <a target="_blank" rel="noreferrer" href="#">
+          <a rel="noreferrer" href="#">
             <img
               class="main-footer__icon"
               src="./assets/png/linkedin-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a rel="noreferrer" href="#">
             <img
               class="main-footer__icon"
               src="./assets/png/github-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a rel="noreferrer" href="#">
             <img
               class="main-footer__icon"
               src="./assets/png/twitter-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a rel="noreferrer" href="#">
             <img
               class="main-footer__icon"
               src="./assets/png/yt-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a rel="noreferrer" href="#">
             <img
               class="main-footer__icon main-footer__icon--mr-none"
               src="./assets/png/insta-ico.png"
@@ -585,7 +585,7 @@ If you like to know how to submit forms so you can receive the form details in y
 
     <div class="main-footer__lower">
       &copy; Copyright 2025. Made by
-      <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+      <a rel="noreferrer" href="https://rammaheshwari.com"
         >Ram Maheshwari</a
       >
     </div>
@@ -624,7 +624,7 @@ Each project will have its own Page. The project page will have important detail
       </p>
     </div>
     <div class="project-cs-hero__cta">
-      <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+      <a href="#" class="btn btn--bg">Live Link</a>
     </div>
   </div>
 </section>
@@ -694,13 +694,13 @@ Each project will have its own Page. The project page will have important detail
           <a
             href="#"
             class="btn btn--med btn--theme project-details__links-btn"
-            target="_blank"
+           
             >Live Link</a
           >
           <a
             href="#"
             class="btn btn--med btn--theme-inv project-details__links-btn"
-            target="_blank"
+           
             >Code Link</a
           >
         </div>
