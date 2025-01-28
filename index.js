@@ -36,3 +36,21 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+document.getElementById('contatoForm').addEventListener('submit', function (e) {
+  e.preventDefault(); // Impede o envio padrão do formulário
+
+  // Captura os valores dos campos do formulário
+  const name = document.getElementById('name').value;
+  const message = document.getElementById('message').value;
+
+  // Formata a mensagem para o WhatsApp
+  const whatsappMessage = `Olá, meu nome é ${encodeURIComponent(name)}.%0A` +
+    `Aqui está minha mensagem:%0A${encodeURIComponent(message)}`;
+
+  // Número do WhatsApp para o qual a mensagem será enviada (adicione seu número com código do país)
+  const whatsappNumber = "75981354779"; // Substitua pelo seu número do WhatsApp
+
+  // Redireciona para o WhatsApp com a mensagem
+  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+});
