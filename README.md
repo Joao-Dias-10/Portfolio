@@ -673,7 +673,7 @@ Each project will have its own Page. The project page will have important detail
           </p>
         </div>
         <div class="project-details__tools-used">
-          <h3 class="project-details__content-title">Tools Used</h3>
+          <h3 class="project-details__content-title">Ferramentas usadas</h3>
           <div class="skills">
             <div class="skills__skill">HTML</div>
             <div class="skills__skill">CSS</div>
