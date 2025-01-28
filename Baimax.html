@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Case Study of Project 3</title>
+    <meta name="description" content="Case study page of Project" />
+    <link rel="icon" href="./assets/png/J.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/user.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">João Dias</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">Sobre </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projetos" class="header__link">
+                projetos
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contato" class="header__link"> contato </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projetos"> projetos </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contato"> contato </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Baimax</h1>
+        <div class="project-cs-hero__info">
+
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="#tela_projeto" class="btn btn--bg">↓ Projeto ↓</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div id="tela_projeto" class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/gif/baimax.gif"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Projeto Overview</h3>
+              <p class="project-details__desc-para">
+                O bot foi desenvolvido para automatizar um processo que antes exigia uma equipe dedicada em uma empresa. Ao acessar a plataforma, o bot inicia sua operação realizando o login e aplicando os filtros necessários com agilidade e precisão. Utilizando Python, Selenium e comandos JavaScript executados pela função <code>execute</code> do Python, ele simula a interação humana e manipula o formulário HTML da página para capturar os dados dos campos apresentados.
+              </p>
+              <p class="project-details__desc-para">
+                O bot repete a ação com filtros diferentes, cerca de 200 vezes, gerando 200 bases individualmente. Após isso, aguarda a plataforma gerar as bases de dados requeridas e inicia a extração. O bot realiza o download das bases, utilizando Pandas para limpar, organizar e formatar as informações conforme as necessidades da empresa.
+              </p>
+              <p class="project-details__desc-para">
+                Além disso, o bot identifica padrões e realiza análises em tempo real com Scikit-learn, aplicando Machine Learning para detectar falhas ou padrões inesperados, otimizando ainda mais o processo de extração. Após preparar as bases, o bot consolida as informações e as envia para o banco de dados PostgreSQL.
+              </p>
+              <p class="project-details__desc-para">
+                Durante todo o processo, o bot é orquestrado e monitorado pela ferramenta Prefect, garantindo a execução sincronizada e eficiente de cada etapa. Os dados gerados são utilizados pelos especialistas para a criação de dashboards e estudos no Power BI.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">Selenium</div>
+                <div class="skills__skill">Scikit-learn</div>
+                <div class="skills__skill">Machine learning</div>
+                <div class="skills__skill">Prefect</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">PostgreSQL</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Power BI</div>
+                <div class="skills__skill">HTML</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a rel="noreferrer" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-rocha-dias-186aa5219/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a rel="noreferrer" href="https://github.com/Joao-Dias-10">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a rel="noreferrer" href="https://www.instagram.com/joao_rocha___?igsh=am5pNHFsbWVrOHQ4">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">João Dias</h4>
+            <p class="main-footer__short-desc">
+              Desenvolverdor full stack especializado em RPA.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by
+          <a rel="noreferrer" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

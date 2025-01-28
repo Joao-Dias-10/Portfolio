@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Case Study of Project 2</title>
+    <meta name="description" content="Case study page of Project" />
+    <link rel="icon" href="./assets/png/J.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/user.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">João Dias</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">Sobre </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projetos" class="header__link">
+                projetos
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contato" class="header__link"> contato </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projetos"> projetos </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contato"> contato </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Hermes</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="#tela_projeto" class="btn btn--bg">↓ Projeto ↓</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div  class="project-details__content">
+          <div  class="project-details__showcase-img-cont">
+            <img id="tela_projeto"
+              src="./assets/gif/hermes.gif"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Projeto Overview</h3>
+              
+              <p class="project-details__desc-para">
+                <strong>Hermes</strong> é uma plataforma pensada e criada por mim para solucionar o problema de uma empresa, onde a disponibilização dos dashboards era feita de forma avulsa, em pastas, drives e e-mails, o que acabava comprometendo o controle e o acompanhamento das informações. A plataforma oferece um ambiente centralizado para clientes e administradores, além de seguir regras de controle e disponibilizar dados para análise dos fluxos e relatórios relacionados.
+              </p>
+            
+              <p class="project-details__desc-para">
+                Sobre a plataforma, ela possui a aba de <strong>Dashboard</strong>, já com alguns indicadores e imagens prévias dos relatórios para download, podendo ser deletada se for necessário. Cada acesso é contabilizado e o download também, com os dados armazenados para estudos posteriores, como por exemplo, em Power BI, permitindo avaliar relatórios mais acessados ou não utilizados, facilitando ajustes, melhorias ou até a inativação de partes dos analistas.
+              </p>
+              
+              <p class="project-details__desc-para">
+                A plataforma também possui a aba <strong>Tabela</strong>, que contém os mesmos dados, mas no formato de tabela. Esse formato é uma opção para analistas que preferem consultar os relatórios pelo nome, e assim fazer análises rápidas e acompanhar o histórico dos meses anteriores, pois, no principal, só é possível ver o mês atual, evitando confusões.
+              </p>
+            
+              <p class="project-details__desc-para">
+                Há também um <strong>Input de Excel</strong>, onde o usuário escolhe o ano, o mês, o grupo e o nome do relatório para enviar. Quando a seleção é feita, o sistema dispara um e-mail para os contatos pré-definidos, informando a disponibilidade do relatório na ferramenta.
+              </p>
+            
+              <p class="project-details__desc-para">
+                Adicionalmente, existe um <strong>Cadastro de Relatórios</strong>, onde o usuário insere os dados relacionados ao relatório, para que ele apareça na aba de <strong>Input de Excel</strong> e seja possível o envio dos e-mails previamente mencionados.
+              </p>
+            
+              <p class="project-details__desc-para">
+                Por fim, há um <strong>Grupo de E-mails</strong>, que se refere a um serviço automatizado que possuímos, onde, todos os dias, às 12h e 18h, o sistema envia disparos para e-mails específicos de cada grupo, informando sobre os relatórios atualizados até o momento. Nessa aba, o usuário pode cadastrar novos e-mails para grupos específicos, ajustando a distribuição das informações conforme necessário.
+              </p>
+            </div>
+            
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Ferramentas usadas</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Vue</div>
+                <div class="skills__skill">Slim</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">PHPMailer</div>
+                <div class="skills__skill">Power BI</div>
+              </div>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a rel="noreferrer" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-rocha-dias-186aa5219/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a rel="noreferrer" href="https://github.com/Joao-Dias-10">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a rel="noreferrer" href="https://www.instagram.com/joao_rocha___?igsh=am5pNHFsbWVrOHQ4">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">João Dias</h4>
+            <p class="main-footer__short-desc">
+              Desenvolverdor full stack especializado em RPA.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by
+          <a rel="noreferrer" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

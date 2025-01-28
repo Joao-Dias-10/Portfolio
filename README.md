@@ -365,7 +365,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
   - `.projetos__row-content-desc` is where you need to add a short 2-3 lines description of your project. As there's going to be a separate page for each project so there you can add all the details for each project on the specific project page.
   - The Anchor tag ( **Case Study** button) on press will take you to the details page for each project ( For example: If you click the **Case Study** button of Project 1 then it will take you to the `project-1.html` file where you will have all the details about that particular project).
 
-Currently, I have already added a separate for each project ( considering there are 3 projetos ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projetos then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
+Currently, I have already added a separate for each project ( considering there are 3 projetos ) the file names are `project-1.html`, `Hermes.html`, and `Baimax.html`. They all contain the same code only the project title, description and image will change. If you like to add more projetos then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
 
 ```html
 <!-- **** projetos Section of Homepage **** -->
@@ -419,7 +419,7 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-            href="./project-2.html"
+            href="./Hermes.html"
             class="btn btn--med btn--theme dynamicBgClr"
            
             >Case Study</a
@@ -442,7 +442,7 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-            href="./project-3.html"
+            href="./Baimax.html"
             class="btn btn--med btn--theme dynamicBgClr"
            
             >Case Study</a
