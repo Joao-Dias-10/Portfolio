@@ -123,7 +123,7 @@ Go to `sass/abstracts/_variables.scss` and change the value of this sass variabl
 
 ```scss
 // Default value
-$themeClrPrimary: #2AC769;
+$themeClrPrimary: #545c64;
 ```
 
 **NOTE**: I highly recommend to checkout the [Dopefolio Playground Link](https://dopefolio-playground.netlify.app) to test the template with different colors and see which color do you like the most.
